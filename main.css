@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+.containerTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.objetos-centrais{
+    display: flex;
+    flex-direction: row;
+}
+.objeto{
+    padding: 1em;
+    padding-left: 0;
+    color: white;
+}
+.objt{
+    font-family: Optima, sans-serif;
+    color: rgb(206, 206, 206);
+    padding: 1em;
+    display: flex;
+}
+.button{
+    background-color: yellow;
+    width: 10em;
+    height: 4em;
+}
+.button:hover{
+    background-color: rgb(181, 181, 0);
+    border: 4px solid yellow;
+}
+.btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nome{
+    font-family: Didot, serif;
+    font-size: 1.5em;
+}
+.containerCenter{
+    margin-left: 10%;
+    margin-top: 1em;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.frasePrincipal{
+    color: white;
+    font-size: 3em;
+    font-family: DejaVu Sans Mono, monospace;
+}
+.descriçao{
+    color: white;
+}
+.containerEnd{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.h2{
+    color: white;
+    padding: 2em;
+    font-size: 2em;
+}
+img{
+    width: 70%;
+    margin-left: 10%;
+}
+div{
+    display: inline-flex;
+}
