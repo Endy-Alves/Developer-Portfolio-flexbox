@@ -35,6 +35,7 @@ body{
 }
 .btn{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
 }
 
 .nome{
@@ -44,7 +45,7 @@ body{
 .containerCenter{
     margin-left: 10%;
     margin-top: 1em;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -58,20 +59,44 @@ body{
     color: white;
 }
 .containerEnd{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 .h2{
     color: white;
-    padding: 2em;
+    padding: 1.5em;
     font-size: 2em;
 }
 img{
     width: 70%;
     margin-left: 10%;
 }
-div{
+
+h3{
+    color: white;
+    padding-left: 5em;
+}
+.h3{
     display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.manutençao{
+    display: inline-flex;
+    flex-direction: row;
+}
+p{
+    color: white;
+}
+.explicaçao{
+    margin-left: 1em;
+}
+.carousel-inner{
+    width: 100% !important;
+    background-color: red;
+}
+.carousel-caption{
+    
 }
