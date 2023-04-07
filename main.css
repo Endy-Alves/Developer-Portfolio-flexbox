@@ -53,6 +53,7 @@ body{
 .frasePrincipal{
     color: white;
     font-size: 3em;
+    padding-right: 10%;
     font-family: DejaVu Sans Mono, monospace;
 }
 .descriçao{
