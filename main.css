@@ -28,6 +28,8 @@ body{
     background-color: yellow;
     width: 10em;
     height: 4em;
+    display: flex;
+    align-items: end;
 }
 .button:hover{
     background-color: rgb(181, 181, 0);
