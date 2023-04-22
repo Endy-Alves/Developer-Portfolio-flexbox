@@ -103,3 +103,20 @@ p{
 .carousel-caption{
     
 }
+.menu-hover{
+    position: absolute;
+    display: inline-flex;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    margin-left: 32%;
+    height: 9em;
+    width: 9em;
+    margin-top: -2em;
+    border: 3px solid yellow;]
+    display: none;
+}
+
+.lorem{
+    font-size: 15px;
+    padding: 10px;
+}
